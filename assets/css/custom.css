@@ -1,0 +1,25 @@
+.quote-btn:hover{
+-webkit-animation: moveVertical 0.65s ease forwards;
+  animation: moveVertical 0.65s ease forwards;
+}
+
+#whatsapp{
+    font-size: 20px;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 8rem;
+    background-color: #1a5717;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 2%;
+    bottom: 2%;
+    color: white;
+    z-index: 2;
+}
+
+#white-txt{
+    color: white;
+}
