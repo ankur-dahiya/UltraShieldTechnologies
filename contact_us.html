@@ -312,7 +312,17 @@
                             <div class="contact-form-wrap">
 
                                 <!-- <form id="contact-form" action="http://whizthemes.com/mail-php/jowel/mitech/php/mail.php" method="post"> -->
-                                <form id="contact-form" action="/index.html" method="post">
+                                <form id="contact-form" action="https://formsubmit.co/b9c8abab09e6000c27881ce7918613d1" method="POST">
+                                    <!-- disable captcha -->
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <!-- template -->
+                                    <input type="hidden" name="_template" value="box">
+                                    <!-- success page -->
+                                    <input type="hidden" name="_next" value="http://localhost:5500/success.html">
+                                    <!-- subject -->
+                                    <input type="hidden" name="_subject" value="New Lead!">
+                                    <!-- honeypot -->
+                                    <input type="text" name="_honey" style="display:none">
                                     <div class="contact-form">
                                         <div class="contact-input">
                                             <div class="contact-inner">
